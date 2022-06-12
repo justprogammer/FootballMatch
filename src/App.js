@@ -14,7 +14,7 @@ function App(){
   const [matchDetails,updateMatchDetails] = useState();
   
   return(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
       <Routes>
         <Route exact path="/" element={<Pg1 details={matchDetails} updateDetails={updateMatchDetails}/>} ></Route>
         <Route exact path="/pg2" element={<Pg2 details={matchDetails} updateDetails={updateMatchDetails}/>} ></Route>

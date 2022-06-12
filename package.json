@@ -2,6 +2,7 @@
   "name": "footballmatch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://justprogammer.github.io/FootballMatch/",
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
     "@mui/x-date-pickers": "^5.0.0-alpha.6",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
