@@ -1,0 +1,226 @@
+.App { height: 8px;
+  width: 14px;
+  text-align:left;
+  font-size: 65px;;
+  margin-left: 20px;
+}
+
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#teamone{
+  height: 35px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#teamtwo{
+  height: 35px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#optionone{
+  height: 40px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#optiontwo{
+  height: 40px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.startdate { 
+  height: 35px;
+  width: 250px;
+  
+}
+#table,th{
+  margin-top: 250px;
+  margin-left: 430px;
+  border: 1px solid;
+  width: 1000px;
+  border-collapse: collapse;
+}
+th{
+  background-color: red;
+
+}
+td{border: 1px solid;
+  text-align:center}
+
+.enddate {height: 35px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#enddate::placeholder{
+  color: rgb(17, 10, 10);
+  font-size: 10px;
+}
+#startdate1 {position: relative;
+  top:12px;
+  height: 35px;
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#startdate2 {
+  position: relative;
+  top:12px;
+  height: 35px;
+  width: 250px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+  
+
+  
+
+#option{height: 40px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+  
+#matchlocation{  
+  position: relative;
+  top: -20em;
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+  margin-left: 20px;
+
+}
+#tournamentname{
+  position: relative;
+  top: -16em;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+
+}
+#dividor{
+  display: flex;
+  flex-direction: row;
+}
+#lhs{margin-top: 15px;
+  width: 290px;
+  height: 3px;
+  background-color:grey;
+}
+#vs{
+  position: relative;
+  top: 7px;
+}
+#rhs{
+  margin-top: 15px;
+  width: 290px;
+  height: 3px;
+  background-color:grey;
+}
+#comments{
+  font-size: 30px;
+  overflow-y: scroll;
+  height: 400px;
+  width: 250px;
+  margin-left: 157px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ #btn {height: 2em;
+  width: 5em;
+  position: absolute;
+  bottom: 25px;
+  border: none;
+  left: 90%;
+  background-color:rgb(197, 78, 78);
+  }
+  #btn1 {height: 2em;
+    width: 5em;
+    position: absolute;
+    bottom: 25px;
+    border: none;
+    left: 90%;
+    background-color:rgb(197, 78, 78);
+    }
+    #btn2{height: 2em;
+      width: 5em;
+      position: absolute;
+      bottom: 25px;
+      border: none;
+      left: 85%;
+      background-color:rgb(197, 78, 78);
+      }
+      #btn3 {height: 2em;
+        width: 5em;
+        position: absolute;
+        bottom: 25px;
+        border: none;
+        left: 90%;
+        background-color:rgb(197, 78, 78);
+        } 
+       #btn4 { height: 2em;
+        width: 5em;
+          position: absolute;
+          bottom: 25px;
+          border: none;
+          left: 85%;
+          background-color:rgb(197, 78, 78);
+          }
+        #datetime{
+          margin: 20px 20px 20px 20px;
+        }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
